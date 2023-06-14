@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+}
+input:is(:active, :focus), select:is(:active, :focus), button:is(:active, :focus){
+  outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    /* border: 0px !important; */
+}
+
+
+
+
+@media (min-width:1200px) {
+  body{
+    background-color: #ebebeb;
+  }
+}
